@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="customer.css">
+</head>
+
+<body>
+    <form id="form-add-customer">
+        <table>
+            <tr>
+                <td>
+                    <label for="nama_customer">Nama Customer: </label>
+                </td>
+                <td>
+                    <input type="text" name="nama_customer" id="nama_customer">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="jenis_kelamin">Jenis Kelamin: </label>
+                </td>
+                <td>
+                    <select name="jenis_kelamin" id="jenis_kelamin">
+                        <option value=""></option>
+                        <option value="P">Perempuan</option>
+                        <option value="L">Laki-Laki</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="no_hp">No Handphone: </label>
+                </td>
+                <td>
+                    <input type="number" id="no_hp" name="no_hp">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="alamat">Alamat: </label>
+                </td>
+                <td>
+                    <input type="text" id="alamat" name="alamat">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="tanggal_lahir">Tanggal Lahir: </label>
+                </td>
+                <td>
+                    <input type="date" id="tanggal_lahir" name="tanggal_lahir">
+                </td>
+            </tr>
+        </table>
+        <button class="button add-customer-button" id="add-customer-button">Submit</button>
+    </form>
+
+    <script src="./customer.js"></script>
+</body>
+
+</html>
